@@ -1,28 +1,46 @@
-/* "use strict";
+"use strict";
 
-let str = 'some';
-let strObj = new String(str);
+const box = document.getElementById('box'),
+      btns = document.getElementsByTagName('button'),
+      circles = document.getElementsByClassName('circle'),
+      wrapper = document.querySelector('.wrapper'),
+      hearts = wrapper.querySelectorAll('.heart'),
+      oneHeart = wrapper.querySelector('.heart');
 
-// console.log(typeof(str));
-// console.log(typeof(strObj));
+// box.style.backgroundColor = 'blue';
+// box.style.width = '500px';
 
-console.dir([1, 2, 3]);
+box.style.cssText = 'background-color: blue; width: 500px';
 
-const soldier = {
-    health: 400,
-    armor: 100,
-    sayHello: function(){
-        console.log('Hello!');
-    }
-};
+btns[1].style.borderRadius = '100%';
+circles[0].style.backgroundColor = 'red';
 
-const john = Object.create(soldier);
+// for(let i = 0; i < hearts.length; i++){
+//     hearts[i].style.backgroundColor = 'blue';
+// }
 
-// const john = {
-//     health: 100
-// };
+hearts.forEach(item => {
+    item.style.backgroundColor = 'blue';
+})
 
-// john.__proto__ = soldier;
-// Object.setPrototypeOf(john, soldier);
+const div = document.createElement('div');
+div.classList.add('black');
 
-john.sayHello(); */
+wrapper.append(div);
+// wrapper.appendChild(div);
+
+// wrapper.prepend(div);
+// wrapper.insertBefore(div, hearts[0]);
+
+// hearts[0].before(div);
+// hearts[0].after(div);
+
+// circles[0].remove();
+// wrapper.removeChild(hearts[1]);
+
+// hearts[0].replaceWith(circles[0]);
+// wrapper.replaceChild(circles[0], hearts[0]);
+
+div.innerHTML = '<h1>Hello, world!</h1>';
+
+div. insertAdjacentHTML('afterend ', '<h2>Hello!</h2>');
