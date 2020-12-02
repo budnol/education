@@ -1,39 +1,37 @@
 "use strict";
 
-<<<<<<< HEAD
-document.addEventListener('DOMContentLoaded', () =>{
-    const box = document.querySelector('.box');
+const btn = document.querySelector('.btn');
+let timerId,
+    i = 0;
 
-    box.addEventListener('touchmove', (e) => {
-        e.preventDefault();
 
-        // console.log('Start');
-        console.log(e.targetTouches[0].pageX);
-    });
+function myAnimation() {
+    const elem = document.querySelector('.box');
+    let pos = 0;
 
-    // box.addEventListener('touchmove', (e) => {
-    //     e.preventDefault();
+    const id = setInterval(frame, 1);
+    function frame() {
+        if (pos == 300) {
+            clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + "px";
+            elem.style.left = pos + "px";
+        }
+    }
+}
 
-    //     console.log('Move');
-    // });
+btn.addEventListener('click', myAnimation);
 
-    // box.addEventListener('touchend', (e) => {
-    //     e.preventDefault();
+// function logger() {
+//     if (i === 3){
+//         clearInterval(timerId);
+//     }
+//     console.log('text');
+//     i++;
+// }
 
-    //     console.log('End');
-    // });
-});
-=======
-// console.log(document.head);
-// console.log(document.documentElement);
-
-// console.log(document.body.childNodes);
-
-// console.log(document.body.firstChild);
-// console.log(document.body.lastChild);
-
-// console.log(document.querySelector('#current').parentNode.parentNode);
-console.log(document.querySelector('#current').parentElement.parentElement);
-
-// console.log(document.querySelector('[data-current="3"]').nextElementSibling);
->>>>>>> 905e4116df947ca4354bd6d270eb17c4b5755d79
+// let id = setTimeout(function log(){
+//     console.log('Hello');
+//     id = setTimeout(log, 500);
+// }, 500);
