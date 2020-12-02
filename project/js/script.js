@@ -64,7 +64,11 @@
 
            films.forEach((film, i) => {
                parent.innerHTML += `
+<<<<<<< HEAD
                 <li class="promo__interactive-item">${i + 1}. ${film}
+=======
+                <li class="promo__interactive-item">${i + 1} ${film}
+>>>>>>> 905e4116df947ca4354bd6d270eb17c4b5755d79
                     <div class="delete"></div>
                 </li>
             `;
