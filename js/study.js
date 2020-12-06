@@ -23,6 +23,10 @@ function myAnimation() {
 
 btn.addEventListener('click', myAnimation);
 
+const now = new Date();
+now.setHours(2);
+console.log(now);
+
 // function logger() {
 //     if (i === 3){
 //         clearInterval(timerId);
