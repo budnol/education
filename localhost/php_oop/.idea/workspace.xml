@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c03fa58f-a0e9-47a8-a6cc-74b2a359fbd0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/13/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/13/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iRJyBNhRPi8pKGwvQGVN3wNobp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\localhost\php_oop\13\vendor\wfm" />
+      <recent name="C:\Users\Денис\Desktop\OpenServer\domains\localhost\php_oop\12\classes\interfaces" />
+      <recent name="C:\Users\Денис\Desktop\OpenServer\domains\localhost\php_oop\10\classes" />
+      <recent name="C:\Users\Денис\Desktop\OpenServer\domains\localhost\php_oop\hw" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Денис\Desktop\OpenServer\domains\localhost\php_oop" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c03fa58f-a0e9-47a8-a6cc-74b2a359fbd0" name="Default Changelist" comment="" />
+      <created>1601864726401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601864726401</updated>
+      <workItem from="1601864728032" duration="46000" />
+      <workItem from="1601865093462" duration="5669000" />
+      <workItem from="1601948727071" duration="68875000" />
+      <workItem from="1602241604692" duration="8596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601972692607">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="458" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1601972692607" />
+    <state x="462" y="124" key="FileChooserDialogImpl" timestamp="1602141225991">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="124" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602141225991" />
+    <state x="412" y="106" key="NewPhpClassDialog" timestamp="1602058768188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="412" y="106" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1602058768188" />
+    <state x="518" y="306" key="NewPhpFileDialog" timestamp="1602150352966">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="518" y="306" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1602150352966" />
+    <state x="216" y="0" key="SettingsEditor" timestamp="1602243638726">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="216" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602243638726" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602131919915">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1602131919915" />
+  </component>
+</project>

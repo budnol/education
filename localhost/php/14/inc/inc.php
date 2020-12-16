@@ -1,0 +1,2 @@
+<?php
+$names = ['Ivanov', 'Petrov'];

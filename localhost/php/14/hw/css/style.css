@@ -1,0 +1,57 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: #e3e3e3;
+	background-image: url(../images/base-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+p,td { font-family:Arial, Helvetica, sans-serif; margin-top: 0px;}
+a img{border:0;}
+a{
+	color: #b51107;
+	text-decoration: underline;
+}
+a:hover{
+	color: #F72B20;
+	text-decoration: underline;
+}
+a.hidden {text-decoration: none;color: #000000;cursor:default;}
+form {margin:0;padding:0;}
+ul {margin-left:20px;margin-top:0px;padding:1px;list-style-type: square;line-height: 16px;}
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px;
+	padding-bottom: 8px;
+}
+.bottom_addr {
+	font-size: 11px;
+	color: #949494;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	font-family: Tahoma, Arial;
+	text-align: center;
+}
+.bottom_addr a {text-decoration: none;}
+.bottom_addr a:hover {text-decoration: underline;}
+.bottom_menu {color: #000000;text-align: center;padding-top: 4px;padding-bottom: 4px;	font-size: 12px;font-family: Tahoma, Arial;}
+.bottom_menu a {color: #000000;text-decoration: none;}
+.bottom_menu a:hover {color: #000000;text-decoration: underline;}
+.menu {color: #251404;background-image: url(../images/btn_bg.gif);background-repeat: repeat-x;font-weight: bold;padding-right: 15px;padding-left: 15px;white-space: nowrap;font-family: Tahoma, Arial;	font-size: 12px;}
+.menu a{text-decoration: none;color: #251404;}
+.cbg {background-color: #FFFFFF;background-image: url(../images/cbg.gif);background-repeat: no-repeat;background-position: top;}
+.menu a:hover {color: #60330B;	text-decoration: none;}
+.lmenu{
+	background-image: url(../images/lbg.gif);
+	background-repeat: repeat-y;
+	margin-left: 8px;
+	margin-top: 7px;
+	margin-bottom: 3px;
+}
+.lmenu p{margin: 8px;font-size: 11px;font-family: Tahoma, Arial;text-align: justify;}
+.l_title{font-size:12px;font-family: Tahoma, Arial;font-weight: bold;color: #8c180b;background-image: url(../images/ltitle-bg.gif);background-repeat: no-repeat;height: 14px;width: 195px;text-align: center;vertical-align: middle;padding-top: 8px;padding-bottom: 8px;}
+.body_txt {color: #000000;text-align: justify;vertical-align: top;font-family: Tahoma, Arial;font-size: 12px;padding-top: 12px;padding-right: 15px;padding-bottom: 12px;padding-left: 15px;}
+.company_name {font-size: 22px;font-weight: normal;text-transform: none;color: #3f1800;font-family: Tahoma, Arial;position: absolute;margin-top: 168px;margin-left: 54px;}
+.login_form {background-image: url(../images/login-form-bg.gif);background-repeat: repeat-x;height: 20px;width: 110px;border-width: 1px;border-style: solid;font-size: 11px;padding-top: 3px;padding-left: 1px;}

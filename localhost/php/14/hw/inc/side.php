@@ -1,0 +1,2 @@
+<div class="lmenu"><div class="l_title">News & Events</div><p>Факт в том, the quality of free web templates depends on their author - most of the free web templates' developers do not spend a lot of time working for free. Besides, most of the free web templates are of the very general subject.</p>
+          <p>In fact, the quality of free web templates depends on their author - most of the free web templates' developers do not spend a lot of time working for free. Besides, most of the free web templates are of the very general subject.</p>
