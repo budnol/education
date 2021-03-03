@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Timer
 
-    const deadline = '2021-02-24';
+    const deadline = '2021-02-25';
 
     function getTimeRemaining(endtime) {
         const t = Date.parse(endtime) - Date.parse(new Date()),
@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (t.total <= 0) {
                 clearInterval(timeInterval);
+                timer.innerHTML = `<h1>Акция завершена</h1>`;
             }
         }
     }
